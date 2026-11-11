@@ -1,0 +1,26 @@
+// SPDX-FileCopyrightText: The halogenOS Project
+// SPDX-License-Identifier: Apache-2.0
+
+package {
+    default_applicable_licenses: ["external_lucide-icons_license"],
+}
+
+license {
+    name: "external_lucide-icons_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-ISC",
+        "SPDX-license-identifier-MIT",
+    ],
+    license_text: ["LICENSE"],
+}
+
+filegroup {
+    name: "lucide-icons-svg",
+    srcs: ["icons/*.svg"],
+}
+
+filegroup {
+    name: "lucide-icons-license",
+    srcs: ["LICENSE"],
+}
