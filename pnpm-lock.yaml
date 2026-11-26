@@ -523,23 +523,23 @@ importers:
         version: link:../../../packages/solid
       '@solidjs/meta':
         specifier: 1.0.0-next.2
-        version: 1.0.0-next.2(@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20))(solid-js@2.0.0-rc.20)
+        version: 1.0.0-next.2(@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23))(solid-js@2.0.0-rc.23)
       '@solidjs/router':
         specifier: 2.0.0-next.34
-        version: 2.0.0-next.34(@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20))(filesystem-routing@0.4.0(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(solid-js@2.0.0-rc.20)
+        version: 2.0.0-next.34(@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23))(filesystem-routing@0.4.0(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(solid-js@2.0.0-rc.23)
       '@solidjs/web':
         specifier: next
-        version: 2.0.0-rc.20(solid-js@2.0.0-rc.20)
+        version: 2.0.0-rc.23(solid-js@2.0.0-rc.23)
       solid-js:
         specifier: next
-        version: 2.0.0-rc.20
+        version: 2.0.0-rc.23
     devDependencies:
       '@solidjs/testing-library':
         specifier: 1.0.0-rc.2
-        version: 1.0.0-rc.2(@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20))(solid-js@2.0.0-rc.20)
+        version: 1.0.0-rc.2(@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23))(solid-js@2.0.0-rc.23)
       '@solidjs/vite-plugin':
         specifier: 3.0.0-next.47
-        version: 3.0.0-next.47(@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20))(@testing-library/jest-dom@7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5))(solid-js@2.0.0-rc.20)(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
+        version: 3.0.0-next.47(@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23))(@testing-library/jest-dom@7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5))(solid-js@2.0.0-rc.23)(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
       '@vitest/browser-playwright':
         specifier: 5.0.5
         version: 5.0.5(playwright@1.64.1)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))(vitest@5.0.5)
@@ -636,18 +636,18 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/svelte
       svelte:
-        specifier: 5.57.3
-        version: 5.57.3(@typescript-eslint/types@8.69.0)
+        specifier: 5.59.1
+        version: 5.59.1(@typescript-eslint/types@8.69.0)
     devDependencies:
       '@sveltejs/adapter-auto':
-        specifier: ^8.0.0
-        version: 8.0.0(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))
+        specifier: ^9.0.0
+        version: 9.0.0(@sveltejs/kit@3.4.0(@sveltejs/vite-plugin-svelte@7.3.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))
       '@sveltejs/kit':
-        specifier: ^3.1.1
-        version: 3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
+        specifier: ^3.4.0
+        version: 3.4.0(@sveltejs/vite-plugin-svelte@7.3.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^7.3.1
-        version: 7.3.1(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
+        specifier: ^7.3.2
+        version: 7.3.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
       '@vitest/browser-playwright':
         specifier: 5.0.5
         version: 5.0.5(playwright@1.64.1)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))(vitest@5.0.5)
@@ -655,8 +655,8 @@ importers:
         specifier: 1.64.1
         version: 1.64.1
       svelte-check:
-        specifier: ^4.7.7
-        version: 4.7.7(picomatch@4.0.7)(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
+        specifier: ^4.7.8
+        version: 4.7.8(picomatch@4.0.7)(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -668,7 +668,7 @@ importers:
         version: 5.0.5(@types/node@26.4.1)(@vitest/browser-playwright@5.0.5)(@vitest/coverage-v8@5.0.5)(@vitest/ui@5.0.5)(jsdom@30.1.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
       vitest-browser-svelte:
         specifier: 3.1.0
-        version: 3.1.0(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vitest@5.0.5)
+        version: 3.1.0(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vitest@5.0.5)
 
   integrations/lucide-svelte/vite:
     dependencies:
@@ -676,15 +676,15 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/svelte
       svelte:
-        specifier: 5.57.3
-        version: 5.57.3(@typescript-eslint/types@8.69.0)
+        specifier: 5.59.1
+        version: 5.59.1(@typescript-eslint/types@8.69.0)
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^7.3.1
-        version: 7.3.1(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
+        specifier: ^7.3.2
+        version: 7.3.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
       '@tsconfig/svelte':
-        specifier: ^5.0.8
-        version: 5.0.8
+        specifier: ^5.0.9
+        version: 5.0.9
       '@types/node':
         specifier: ^26.4.1
         version: 26.4.1
@@ -695,8 +695,8 @@ importers:
         specifier: 1.64.1
         version: 1.64.1
       svelte-check:
-        specifier: ^4.7.7
-        version: 4.7.7(picomatch@4.0.7)(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
+        specifier: ^4.7.8
+        version: 4.7.8(picomatch@4.0.7)(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -708,7 +708,7 @@ importers:
         version: 5.0.5(@types/node@26.4.1)(@vitest/browser-playwright@5.0.5)(@vitest/coverage-v8@5.0.5)(@vitest/ui@5.0.5)(jsdom@30.1.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
       vitest-browser-svelte:
         specifier: 3.1.0
-        version: 3.1.0(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vitest@5.0.5)
+        version: 3.1.0(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vitest@5.0.5)
 
   integrations/lucide-vue/nuxt:
     dependencies:
@@ -1303,19 +1303,19 @@ importers:
         version: 7.1.0(@babel/core@8.0.10)(@types/babel__core@7.20.5)(rollup@4.65.1)(supports-color@10.2.2)
       '@solidjs/testing-library':
         specifier: next
-        version: 1.0.0-rc.2(@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20))(solid-js@2.0.0-rc.20)
+        version: 1.0.0-rc.2(@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23))(solid-js@2.0.0-rc.23)
       '@solidjs/vite-plugin':
         specifier: next
-        version: 3.0.0-next.35(@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20))(@testing-library/jest-dom@7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5))(solid-js@2.0.0-rc.20)(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
+        version: 3.0.0-next.35(@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23))(@testing-library/jest-dom@7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5))(solid-js@2.0.0-rc.23)(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
       '@solidjs/web':
         specifier: next
-        version: 2.0.0-rc.20(solid-js@2.0.0-rc.20)
+        version: 2.0.0-rc.23(solid-js@2.0.0-rc.23)
       '@testing-library/jest-dom':
         specifier: ^7.0.1
         version: 7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5)
       babel-preset-solid:
         specifier: next
-        version: 2.0.0-rc.2(@babel/core@8.0.10)(solid-js@2.0.0-rc.20)
+        version: 2.0.0-rc.2(@babel/core@8.0.10)(solid-js@2.0.0-rc.23)
       esbuild:
         specifier: ^0.28.2
         version: 0.28.2
@@ -1330,7 +1330,7 @@ importers:
         version: 6.5.1(rollup@4.65.1)(typescript@6.0.3)
       solid-js:
         specifier: next
-        version: 2.0.0-rc.20
+        version: 2.0.0-rc.23
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -1347,20 +1347,20 @@ importers:
         specifier: workspace:*
         version: link:../../tools/build-helpers
       '@sveltejs/package':
-        specifier: ^3.0.2
-        version: 3.0.2(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
+        specifier: ^3.0.3
+        version: 3.0.3(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^7.3.1
-        version: 7.3.1(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
+        specifier: ^7.3.2
+        version: 7.3.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
       '@testing-library/jest-dom':
         specifier: ^7.0.1
         version: 7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5)
       '@testing-library/svelte':
         specifier: ^5.4.2
-        version: 5.4.2(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))(vitest@5.0.5)
+        version: 5.4.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))(vitest@5.0.5)
       '@tsconfig/svelte':
-        specifier: ^5.0.8
-        version: 5.0.8
+        specifier: ^5.0.9
+        version: 5.0.9
       jest-serializer-html:
         specifier: ^7.1.0
         version: 7.1.0
@@ -1368,14 +1368,14 @@ importers:
         specifier: ^30.1.3
         version: 30.1.3
       svelte:
-        specifier: ^5.57.3
-        version: 5.57.3(@typescript-eslint/types@8.69.0)
+        specifier: ^5.59.1
+        version: 5.59.1(@typescript-eslint/types@8.69.0)
       svelte-check:
-        specifier: ^4.7.7
-        version: 4.7.7(picomatch@4.0.7)(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
+        specifier: ^4.7.8
+        version: 4.7.8(picomatch@4.0.7)(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
       svelte-preprocess:
         specifier: ^6.0.5
-        version: 6.0.5(@babel/core@7.29.7(supports-color@10.2.2))(less@4.9.1(supports-color@10.2.2))(postcss@8.5.32)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
+        version: 6.0.5(@babel/core@7.29.7(supports-color@10.2.2))(less@4.9.1(supports-color@10.2.2))(postcss@8.5.32)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -5450,6 +5450,9 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
+  '@rolldown/pluginutils@1.1.1':
+    resolution: {integrity: sha512-glFIJDvLNDtJhT9qrMFWLPbvS+skxgt4L0K8Ei2YtnhPysAJnsI7nyxSJxKj4ADeKX0OLjC4ntRkwpLOoS3rwA==}
+
   '@rollup/plugin-alias@6.0.0':
     resolution: {integrity: sha512-tPCzJOtS7uuVZd+xPhoy5W4vThe6KWXNmsFCNktaAh5RTqcLiSfT4huPQIXkgJ6YCOjJHvecOAzQxLFhPxKr+g==}
     engines: {node: '>=20.19.0'}
@@ -5828,8 +5831,8 @@ packages:
       filesystem-routing:
         optional: true
 
-  '@solidjs/signals@2.0.0-rc.20':
-    resolution: {integrity: sha512-BIL5dKm0dAtPGsCEuLSNw60spDbmYG5QFK+aHUxPIgPLweA8IeJKd62DiqqqU/jqX0x39ty31GoP1n+ZINkrcg==}
+  '@solidjs/signals@2.0.3':
+    resolution: {integrity: sha512-M6+kiJflqSvJRHRcmdsdIXpPLPkQrY817zWKKfxZ3z3ZRE5eEtddtWPrDXY4IM1Wz3zAqG+3Fx/HQIkAtpRwnA==}
     engines: {node: '>=22.12.0'}
 
   '@solidjs/start@2.0.5':
@@ -5889,11 +5892,11 @@ packages:
       '@testing-library/jest-dom':
         optional: true
 
-  '@solidjs/web@2.0.0-rc.20':
-    resolution: {integrity: sha512-ACGUZ1XBNxiHnWW274na+1JZfuIhiS/BN5XM72wVKNYSopR/NyjVPR4O/nvshtbYlEk1lKJ9d1uBaXDaz6ddYg==}
+  '@solidjs/web@2.0.0-rc.23':
+    resolution: {integrity: sha512-8OtRNh7p6hYy6Zhoi4WWVKN9UB3bWbtDLrmITVOcO0GGnB5r7nthAoM/7/xPS5Qa0rTC3AymlUap3ZVdPJhbVw==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
-      solid-js: ^2.0.0-rc.20
+      solid-js: ^2.0.0-rc.23
 
   '@speed-highlight/core@1.2.24':
     resolution: {integrity: sha512-qeW2e1l78afw8VhRPfPQ1Gjj+KU5XFQ/OFV5ti6eTa9bruO7mJyZtA4vw0ofqmA3tKCkROE9xLk3VZoeRc98nw==}
@@ -5909,13 +5912,13 @@ packages:
     peerDependencies:
       acorn: ^8.9.0
 
-  '@sveltejs/adapter-auto@8.0.0':
-    resolution: {integrity: sha512-CKOwUS865xfoZn3CpM868slPfitsQ4vmxAR/yOfTIguAwStgkhjhzV0zEhmkzPalH338LJ9XnQX9vfQeY7220A==}
+  '@sveltejs/adapter-auto@9.0.0':
+    resolution: {integrity: sha512-AV89HWxrAWoT6/TmuALWcLookGPmIsv1mDIxKORRvf0fjHWr9qX753FU/xPFh9fsmF84abrvK79Czr5HmIIPhw==}
     peerDependencies:
       '@sveltejs/kit': ^3.0.0-next.0
 
-  '@sveltejs/kit@3.1.1':
-    resolution: {integrity: sha512-BiEMvekYXE9Gu/YhWJ/yJ0WDLH1PX/dmjuAeFp5rrtdmgdzkjt7DvimlSP+/U4tgposl7pkE20luHpcnc6BgRw==}
+  '@sveltejs/kit@3.4.0':
+    resolution: {integrity: sha512-0GBSN4rR/IptM40J5knl2lU/BFTP4U5mF+dXBE5VyHuBI5+bf/Zs3YzrAVKrqidZ9CRj9NUaHb0rxzFNkfUw6g==}
     engines: {node: '>=22.17'}
     hasBin: true
     peerDependencies:
@@ -5934,8 +5937,8 @@ packages:
     resolution: {integrity: sha512-VT3qmUb8pRV2QrZjd8iAmtg8lf4W0TIjZbvXtz5MKei/q96teWZgGJyyidJzOjzZzvdq616eSRVeMYIQChUTAQ==}
     engines: {node: '>= 18.0.0'}
 
-  '@sveltejs/package@3.0.2':
-    resolution: {integrity: sha512-1HhN/Lgw1Bqyu7T6fWILt6euTyt+h+yBH2yUVYxTkGVUdIV1Xsp/gGaHnfBkD584i1fXte1cR4+zYtUsQC/F6A==}
+  '@sveltejs/package@3.0.3':
+    resolution: {integrity: sha512-aOEPwEPZfsWau3RvtEQCORKpfwlJNBmIPY34hvhO4ZwqQMSqvP+FQRLvlgHbSdXervl88SapjlFoMim+l8IAXQ==}
     engines: {node: '>=22'}
     hasBin: true
     peerDependencies:
@@ -5945,8 +5948,8 @@ packages:
       typescript:
         optional: true
 
-  '@sveltejs/vite-plugin-svelte@7.3.1':
-    resolution: {integrity: sha512-ZPsLN8B1e/En+Ak5s4V7srFDT532oS0qieLsQwu63NGKsS+iAjoO2Js1BochlHlglcU+Pt7WAO3C5Ee+4f6gVA==}
+  '@sveltejs/vite-plugin-svelte@7.3.2':
+    resolution: {integrity: sha512-86J4nBLeTqYYIx/paBIRqYJMFYlpTS2sepUdQ6tUyU1jxqRV72ejOrIV2wsqlOsKlkM+h0G1SgwoHI30N+n9CA==}
     engines: {node: ^20.19 || ^22.12 || >=24}
     peerDependencies:
       svelte: ^5.46.4
@@ -6226,8 +6229,8 @@ packages:
   '@tsconfig/node24@24.0.5':
     resolution: {integrity: sha512-DWC54fGPuhZgg3Ighg4Y/A/bA3ZdB5hnzAuv/MkQ/X85sVsBsMQxu8t7khutdYeiNksBbFdDyeqv1HSW2Zl8aA==}
 
-  '@tsconfig/svelte@5.0.8':
-    resolution: {integrity: sha512-UkNnw1/oFEfecR8ypyHIQuWYdkPvHiwcQ78sh+ymIiYoF+uc5H1UBetbjyqT+vgGJ3qQN6nhucJviX6HesWtKQ==}
+  '@tsconfig/svelte@5.0.9':
+    resolution: {integrity: sha512-gbtbqsEFq9gFzGmgJMIB3+leXVmkUttoFjzeHsbqN6qFKst40fvxnN9+3Ajdl8VlIGwPevs9LNJ8YUhQgchqaw==}
 
   '@tybys/wasm-util@0.10.4':
     resolution: {integrity: sha512-W3c4gRigFS0T/Ma4qIYF3GDAc5AQdHb1yL5znJT1Zv1YaD9Kitx656wBjvr19qbiosmZT8lWDM5BEMynUqX65A==}
@@ -7940,6 +7943,10 @@ packages:
     resolution: {integrity: sha512-yuToqVvRrj6pfDXREyQAAv8SkAEk/8GS3jQRTiUMm66TVtBYmqQeoEjL2Lmq8Rpo6271vH76InTChTitEAm65w==}
     engines: {node: '>=22'}
 
+  cookie@2.0.2:
+    resolution: {integrity: sha512-SL0cVuEdETEp7pN0FuZb01toc3vnODEfVUCooxG1SJN0yIirh7JMb9X9bvfCFf0vzzbT68RdbKDHYTiWy7a7iw==}
+    engines: {node: '>=22'}
+
   copy-anything@3.0.5:
     resolution: {integrity: sha512-yCEafptTtb4bk7GLEQoM8KVJpxAfdBJYaXyzQEgQQQgYrZiDp8SJmGKlYza6CYjEDNstAdNdKA3UuoULlEbS6w==}
     engines: {node: '>=12.13'}
@@ -8626,8 +8633,8 @@ packages:
     resolution: {integrity: sha512-Ap6G0WQwcU/LHsvLwON1fAQX9Zp0A2Y6Y/cJBl9r/JbW90Zyg4/zbG6zzKa2OTALELarYHmKu0GhpM5EO+7T0g==}
     engines: {node: '>=0.10'}
 
-  esrap@2.4.0:
-    resolution: {integrity: sha512-CQPcneEHw/czj32uwQC52nYnax8H4SXt25FCM+LIwGZ49cMIxpOj3bP8wmzcI+Z0HIy5KkClaPhRLfCySzwHPA==}
+  esrap@2.4.2:
+    resolution: {integrity: sha512-WpVZsWnSheHBy+fGrO/0duwnbe6ODZH1QyBbjupreSCJGojaBWRncrq+HVeIJ8eHQjEwSJg9hC4yPJyNVOrpqg==}
     peerDependencies:
       '@typescript-eslint/types': ^8.2.0
     peerDependenciesMeta:
@@ -11842,16 +11849,22 @@ packages:
     peerDependencies:
       seroval: ^1.0
 
+  seroval-plugins@1.8.0:
+    resolution: {integrity: sha512-96vBb12rDvPPwdKUgWw1op3fGq8AVBFOr0IllbnM72yR5J9WWXF18cQ4g1XfDO7HCyh2dt70P3XdtyRayP8FWg==}
+    engines: {node: '>=20'}
+    peerDependencies:
+      seroval: ^1.8.0
+
   seroval@1.6.12:
     resolution: {integrity: sha512-CqbIVfk/7GL3ITwZI55lcPbpQbjHZ2DD5cUj4iH7E9YsCfHNJV1mx7yNp86Z84w5IpmkZZS/2s5vPOWmVWSdQg==}
     engines: {node: '>=10'}
 
-  seroval@1.7.0:
-    resolution: {integrity: sha512-FU+LUkmDzWNsJ6oubZFN3dGPKny53DRhPJG6nftEaXDL8MIn19+kEE1Gvc+63Go+qPOwVUlKIdKhsu2HN6tksw==}
-    engines: {node: '>=20'}
-
   seroval@1.7.6:
     resolution: {integrity: sha512-oKNe6A8I3lSA5J0xg9xsrWCWDpET6CFhCMVuIsCmqrjNpBXzQXDAAQI5UfuC4Ner4DIR+VAtSw7TC0AmRMqFFQ==}
+    engines: {node: '>=20'}
+
+  seroval@1.8.2:
+    resolution: {integrity: sha512-zmMxi/9MdLK1MKazLmIP6Rk39RuK0Xydd+QHeOYntS37olJeTjB3+nwVj4ce/ZWiZJeRhcO5htfxt0mUzQBscQ==}
     engines: {node: '>=20'}
 
   serve-placeholder@2.0.2:
@@ -11987,8 +12000,8 @@ packages:
   solid-js@1.9.18:
     resolution: {integrity: sha512-CHGO5YFk6Y9m/1YSxVtKnXfrW7JD3Tmof8HmR4z6TmCPsS8efo8LnzIR8CQh3cUvffqYm6DWyBFfk8dQw1CNQQ==}
 
-  solid-js@2.0.0-rc.20:
-    resolution: {integrity: sha512-FxaEI7LHupehFoR9j2CfJAGCoRgiKgeNlzii4szUS6lnD8RkpdtvX1k6WFG71vl5bskXRRsmEQVAXsbIemQOuw==}
+  solid-js@2.0.0-rc.23:
+    resolution: {integrity: sha512-PZgcbOpm1OgX9y68Z73GXpbUxgZqS+F/5MQjfTEa8u5D2qS/lXvD3IeGQuHG+QWActJTZg7XwF+AP7fEp9JIzw==}
     engines: {node: '>=22.12.0'}
 
   solid-refresh@0.6.3:
@@ -12244,8 +12257,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  svelte-check@4.7.7:
-    resolution: {integrity: sha512-Ge2IMdeTpbJuzNFGRiiMg0RWgbScysKQu7xwcyFJ22+DU9F5nPX51+Q3gHmGqRxYQMx2knreVWt5oCtfe0vf2g==}
+  svelte-check@4.7.8:
+    resolution: {integrity: sha512-laZ49GFHZ3b0z2PWinJWL0syehc/PTR8aHaUaTiBkWJ+4Y38nhxjmXsSz7CbGa3VdKopViVbrBH3bGNqIAI0bQ==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -12289,14 +12302,14 @@ packages:
       typescript:
         optional: true
 
-  svelte2tsx@0.7.62:
-    resolution: {integrity: sha512-ZXfsmL0jzAs01ho0w5z5LSIC2WgSdpTF0QCwaXLq7oHgho4P9fTgHlLp1pKAx6/xtVYRSW5nGH5ZRpEHZCqliA==}
+  svelte2tsx@0.7.63:
+    resolution: {integrity: sha512-gRgz/V6wOx0NDZhm6OMD2VIh+/HrgZc3k6ibX93rkNPEkWNn/P3Uhb1fYCqOrimEUpQd8r65dhiHZIJXSQBeow==}
     peerDependencies:
       svelte: ^3.55 || ^4.0.0-next.0 || ^4.0 || ^5.0.0-next.0
       typescript: ^4.9.4 || ^5.0.0 || ^6.0.0
 
-  svelte@5.57.3:
-    resolution: {integrity: sha512-5mAftM3SoDV9X0zdF386F9p2pv8iKOwi/KfBS1XnBAkVCKFzVOLHUoa8iGWAt4buoicLmyWVRpuuD5wplXOQsg==}
+  svelte@5.59.1:
+    resolution: {integrity: sha512-ADG20W/jYSQut/79AavRRfbXQYebFKMVWT/xAbjVVZfZA4XzIoFfcpanEfYTyN+uWQUaPP+nstFx4qVKwEVnQQ==}
     engines: {node: '>=18'}
 
   svg-path-commander@2.3.3:
@@ -13094,6 +13107,14 @@ packages:
       vite:
         optional: true
 
+  vitefu@1.1.4:
+    resolution: {integrity: sha512-qbEIDswfXH3x3IYRMScl/bf1AVW0dn7Z8qkr7g7nohkusfuC7tcFa7t5EoTOz60AunosLM9sDrDjHxsX+Up+CQ==}
+    peerDependencies:
+      vite: ^8.3.3
+    peerDependenciesMeta:
+      vite:
+        optional: true
+
   vitepress-plugin-group-icons@1.7.6:
     resolution: {integrity: sha512-fXSpQAYHpFpEsZLKWQAwbRx/+0uRSHmY58YNAQcz0AVirGsM6w22jtSmQhOGLEj8ZKyeRtTJrpx6otUI6wvoaQ==}
     peerDependencies:
@@ -13638,18 +13659,22 @@ packages:
   yuku-ast@0.19.0:
     resolution: {integrity: sha512-PyCsiScaelhxBGzL8dyeJkLqvRZycoh78R31Vrt/WqYrm0hMFoKwIw/X7Dx5mBKLWAMlV9I9HEyBOHnj2gZVyw==}
     engines: {node: '>=14.18.0'}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   yuku-codegen@0.19.0:
     resolution: {integrity: sha512-uymAKHjDuaP4BEpkXC/BSLz4DUEF5oArZ5AuD3888nb2miChjWSgpPdojEJxm3pjpXkgUaCRJQyNAbnMN33wHg==}
     engines: {node: '>=14.18.0'}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   yuku-core@0.19.0:
     resolution: {integrity: sha512-kYK9e1XdfirNhkipzW0wmMcSWcVF/CWnuugodfVYRCUwvoBefweL9HzB96OiKEhsx78V5WbUxbJqlizMX869Qg==}
     engines: {node: '>=14.18.0'}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   yuku-parser@0.19.0:
     resolution: {integrity: sha512-XrBh9ZiQK5mJVRxZBAvD6LwRyAYrK3MFtH3+onyuxFL5hFD44EC3QOmIC1FjTj6H2MMwq46/NAI+NZxLZPZgxg==}
     engines: {node: '>=14.18.0'}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   zimmerframe@1.1.5:
     resolution: {integrity: sha512-msJxIvYDYcoNL+PJsu+7qmpDWsYmAxTY+2TNYXXF0hzBzBk0BMecOqDOG/EckUoKCuKwObfbugIl8QpqHDXeFA==}
@@ -17766,6 +17791,8 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
+  '@rolldown/pluginutils@1.1.1': {}
+
   '@rollup/plugin-alias@6.0.0(rollup@4.65.1)':
     optionalDependencies:
       rollup: 4.65.1
@@ -18084,23 +18111,23 @@ snapshots:
     dependencies:
       solid-js: 1.9.18
 
-  '@solidjs/meta@1.0.0-next.2(@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20))(solid-js@2.0.0-rc.20)':
+  '@solidjs/meta@1.0.0-next.2(@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23))(solid-js@2.0.0-rc.23)':
     dependencies:
-      '@solidjs/web': 2.0.0-rc.20(solid-js@2.0.0-rc.20)
-      solid-js: 2.0.0-rc.20
+      '@solidjs/web': 2.0.0-rc.23(solid-js@2.0.0-rc.23)
+      solid-js: 2.0.0-rc.23
 
   '@solidjs/router@1.0.0(solid-js@1.9.18)':
     dependencies:
       solid-js: 1.9.18
 
-  '@solidjs/router@2.0.0-next.34(@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20))(filesystem-routing@0.4.0(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(solid-js@2.0.0-rc.20)':
+  '@solidjs/router@2.0.0-next.34(@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23))(filesystem-routing@0.4.0(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(solid-js@2.0.0-rc.23)':
     dependencies:
-      '@solidjs/web': 2.0.0-rc.20(solid-js@2.0.0-rc.20)
-      solid-js: 2.0.0-rc.20
+      '@solidjs/web': 2.0.0-rc.23(solid-js@2.0.0-rc.23)
+      solid-js: 2.0.0-rc.23
     optionalDependencies:
       filesystem-routing: 0.4.0(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
 
-  '@solidjs/signals@2.0.0-rc.20': {}
+  '@solidjs/signals@2.0.3': {}
 
   '@solidjs/start@2.0.5(@solidjs/router@1.0.0(solid-js@1.9.18))(@testing-library/jest-dom@7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5))(crossws@0.4.12(srvx@1.0.5))(ocache@0.3.0)(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))':
     dependencies:
@@ -18145,22 +18172,22 @@ snapshots:
     optionalDependencies:
       '@solidjs/router': 1.0.0(solid-js@1.9.18)
 
-  '@solidjs/testing-library@1.0.0-rc.2(@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20))(solid-js@2.0.0-rc.20)':
+  '@solidjs/testing-library@1.0.0-rc.2(@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23))(solid-js@2.0.0-rc.23)':
     dependencies:
-      '@solidjs/web': 2.0.0-rc.20(solid-js@2.0.0-rc.20)
+      '@solidjs/web': 2.0.0-rc.23(solid-js@2.0.0-rc.23)
       '@testing-library/dom': 10.4.2
-      solid-js: 2.0.0-rc.20
+      solid-js: 2.0.0-rc.23
 
-  '@solidjs/vite-plugin@3.0.0-next.35(@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20))(@testing-library/jest-dom@7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5))(solid-js@2.0.0-rc.20)(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))':
+  '@solidjs/vite-plugin@3.0.0-next.35(@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23))(@testing-library/jest-dom@7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5))(solid-js@2.0.0-rc.23)(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@solidjs/babel-plugin': 2.0.0-rc.13(@babel/core@7.29.7(supports-color@10.2.2))
       '@solidjs/compiler': 2.0.0-rc.13
-      '@solidjs/web': 2.0.0-rc.20(solid-js@2.0.0-rc.20)
+      '@solidjs/web': 2.0.0-rc.23(solid-js@2.0.0-rc.23)
       '@types/babel__core': 7.20.5
       merge-anything: 5.1.7
-      solid-js: 2.0.0-rc.20
+      solid-js: 2.0.0-rc.23
       vite: 8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)
       vitefu: 1.1.3(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
     optionalDependencies:
@@ -18169,16 +18196,16 @@ snapshots:
       - '@tsrx/core'
       - supports-color
 
-  '@solidjs/vite-plugin@3.0.0-next.47(@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20))(@testing-library/jest-dom@7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5))(solid-js@2.0.0-rc.20)(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))':
+  '@solidjs/vite-plugin@3.0.0-next.47(@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23))(@testing-library/jest-dom@7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5))(solid-js@2.0.0-rc.23)(supports-color@10.2.2)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@solidjs/babel-plugin': 2.0.0-rc.13(@babel/core@7.29.7(supports-color@10.2.2))
       '@solidjs/compiler': 2.0.0-rc.13
-      '@solidjs/web': 2.0.0-rc.20(solid-js@2.0.0-rc.20)
+      '@solidjs/web': 2.0.0-rc.23(solid-js@2.0.0-rc.23)
       '@types/babel__core': 7.20.5
       merge-anything: 5.1.7
-      solid-js: 2.0.0-rc.20
+      solid-js: 2.0.0-rc.23
       vite: 8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)
       vitefu: 1.1.3(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
     optionalDependencies:
@@ -18187,11 +18214,12 @@ snapshots:
       - '@tsrx/core'
       - supports-color
 
-  '@solidjs/web@2.0.0-rc.20(solid-js@2.0.0-rc.20)':
+  '@solidjs/web@2.0.0-rc.23(solid-js@2.0.0-rc.23)':
     dependencies:
-      seroval: 1.7.0
-      seroval-plugins: 1.7.0(seroval@1.7.0)
-      solid-js: 2.0.0-rc.20
+      csstype: 3.2.3
+      seroval: 1.8.2
+      seroval-plugins: 1.8.0(seroval@1.8.2)
+      solid-js: 2.0.0-rc.23
 
   '@speed-highlight/core@1.2.24': {}
 
@@ -18203,45 +18231,45 @@ snapshots:
     dependencies:
       acorn: 8.19.0
 
-  '@sveltejs/adapter-auto@8.0.0(@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))':
+  '@sveltejs/adapter-auto@9.0.0(@sveltejs/kit@3.4.0(@sveltejs/vite-plugin-svelte@7.3.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))':
     dependencies:
-      '@sveltejs/kit': 3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
+      '@sveltejs/kit': 3.4.0(@sveltejs/vite-plugin-svelte@7.3.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
 
-  '@sveltejs/kit@3.1.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))':
+  '@sveltejs/kit@3.4.0(@sveltejs/vite-plugin-svelte@7.3.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)))(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))':
     dependencies:
-      '@rolldown/pluginutils': 1.0.1
+      '@jridgewell/trace-mapping': 0.3.31
+      '@rolldown/pluginutils': 1.1.1
       '@standard-schema/spec': 1.1.0
-      '@sveltejs/vite-plugin-svelte': 7.3.1(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
-      cookie: 2.0.1
+      '@sveltejs/vite-plugin-svelte': 7.3.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
+      cookie: 2.0.2
       devalue: 5.9.4
       esm-env: 1.2.2
       magic-string: 1.4.5
       mrmime: 2.0.1
       sirv: 3.0.2
-      svelte: 5.57.3(@typescript-eslint/types@8.69.0)
+      svelte: 5.59.1(@typescript-eslint/types@8.69.0)
       vite: 8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)
     optionalDependencies:
       typescript: 6.0.3
 
   '@sveltejs/load-config@0.2.3': {}
 
-  '@sveltejs/package@3.0.2(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)':
+  '@sveltejs/package@3.0.3(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)':
     dependencies:
       '@sveltejs/load-config': 0.2.3
       chokidar: 6.0.0
-      svelte: 5.57.3(@typescript-eslint/types@8.69.0)
-      svelte2tsx: 0.7.62(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
+      svelte: 5.59.1(@typescript-eslint/types@8.69.0)
+      svelte2tsx: 0.7.63(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3)
     optionalDependencies:
       typescript: 6.0.3
 
-  '@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))':
+  '@sveltejs/vite-plugin-svelte@7.3.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))':
     dependencies:
       deepmerge: 4.3.1
-      magic-string: 1.4.5
-      obug: 2.2.1
-      svelte: 5.57.3(@typescript-eslint/types@8.69.0)
+      obug: 3.0.0
+      svelte: 5.59.1(@typescript-eslint/types@8.69.0)
       vite: 8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)
-      vitefu: 1.1.3(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
+      vitefu: 1.1.4(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
 
   '@swc/helpers@0.5.23':
     dependencies:
@@ -18501,7 +18529,7 @@ snapshots:
       srvx: 0.11.22
       tinyglobby: 0.2.17
       ufo: 1.6.4
-      vitefu: 1.1.3(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
+      vitefu: 1.1.4(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
       xmlbuilder2: 4.0.3
       zod: 4.6.7
     optionalDependencies:
@@ -18598,15 +18626,15 @@ snapshots:
       '@types/react': 19.3.0
       '@types/react-dom': 19.3.0(@types/react@19.3.0)
 
-  '@testing-library/svelte-core@1.1.3(svelte@5.57.3(@typescript-eslint/types@8.69.0))':
+  '@testing-library/svelte-core@1.1.3(svelte@5.59.1(@typescript-eslint/types@8.69.0))':
     dependencies:
-      svelte: 5.57.3(@typescript-eslint/types@8.69.0)
+      svelte: 5.59.1(@typescript-eslint/types@8.69.0)
 
-  '@testing-library/svelte@5.4.2(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))(vitest@5.0.5)':
+  '@testing-library/svelte@5.4.2(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))(vitest@5.0.5)':
     dependencies:
       '@testing-library/dom': 10.4.2
-      '@testing-library/svelte-core': 1.1.3(svelte@5.57.3(@typescript-eslint/types@8.69.0))
-      svelte: 5.57.3(@typescript-eslint/types@8.69.0)
+      '@testing-library/svelte-core': 1.1.3(svelte@5.59.1(@typescript-eslint/types@8.69.0))
+      svelte: 5.59.1(@typescript-eslint/types@8.69.0)
     optionalDependencies:
       vite: 8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)
       vitest: 5.0.5(@types/node@26.4.1)(@vitest/browser-playwright@5.0.5)(@vitest/coverage-v8@5.0.5)(@vitest/ui@5.0.5)(jsdom@30.1.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
@@ -18629,7 +18657,7 @@ snapshots:
 
   '@tsconfig/node24@24.0.5': {}
 
-  '@tsconfig/svelte@5.0.8': {}
+  '@tsconfig/svelte@5.0.9': {}
 
   '@tybys/wasm-util@0.10.4':
     dependencies:
@@ -19146,7 +19174,7 @@ snapshots:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@babel/plugin-syntax-typescript': 7.29.7(@babel/core@7.29.7(supports-color@10.2.2))
       '@babel/plugin-transform-typescript': 7.29.7(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
-      '@rolldown/pluginutils': 1.0.1
+      '@rolldown/pluginutils': 1.1.1
       '@vue/babel-plugin-jsx': 2.0.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       vite: 8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)
       vue: 3.5.44(typescript@6.0.3)
@@ -20033,12 +20061,12 @@ snapshots:
     optionalDependencies:
       solid-js: 1.9.18
 
-  babel-preset-solid@2.0.0-rc.2(@babel/core@8.0.10)(solid-js@2.0.0-rc.20):
+  babel-preset-solid@2.0.0-rc.2(@babel/core@8.0.10)(solid-js@2.0.0-rc.23):
     dependencies:
       '@babel/core': 8.0.10
       '@dom-expressions/babel-plugin-jsx': 0.50.0-next.44(@babel/core@8.0.10)
     optionalDependencies:
-      solid-js: 2.0.0-rc.20
+      solid-js: 2.0.0-rc.23
 
   bail@2.0.2: {}
 
@@ -20521,6 +20549,8 @@ snapshots:
   cookie@0.7.2: {}
 
   cookie@2.0.1: {}
+
+  cookie@2.0.2: {}
 
   copy-anything@3.0.5:
     dependencies:
@@ -21336,7 +21366,7 @@ snapshots:
     dependencies:
       estraverse: 5.3.0
 
-  esrap@2.4.0(@typescript-eslint/types@8.69.0):
+  esrap@2.4.2(@typescript-eslint/types@8.69.0):
     dependencies:
       '@jridgewell/sourcemap-codec': 1.6.0
     optionalDependencies:
@@ -24799,7 +24829,7 @@ snapshots:
   rolldown@1.2.15:
     dependencies:
       '@oxc-project/types': 0.155.0
-      '@rolldown/pluginutils': 1.0.1
+      '@rolldown/pluginutils': 1.1.1
     optionalDependencies:
       '@rolldown/binding-android-arm-eabi': 1.2.15
       '@rolldown/binding-android-arm64': 1.2.15
@@ -24820,7 +24850,7 @@ snapshots:
   rolldown@1.2.16:
     dependencies:
       '@oxc-project/types': 0.156.0
-      '@rolldown/pluginutils': 1.0.1
+      '@rolldown/pluginutils': 1.1.1
     optionalDependencies:
       '@rolldown/binding-android-arm-eabi': 1.2.16
       '@rolldown/binding-android-arm64': 1.2.16
@@ -25315,19 +25345,19 @@ snapshots:
     dependencies:
       seroval: 1.6.12
 
-  seroval-plugins@1.7.0(seroval@1.7.0):
-    dependencies:
-      seroval: 1.7.0
-
   seroval-plugins@1.7.0(seroval@1.7.6):
     dependencies:
       seroval: 1.7.6
 
+  seroval-plugins@1.8.0(seroval@1.8.2):
+    dependencies:
+      seroval: 1.8.2
+
   seroval@1.6.12: {}
 
-  seroval@1.7.0: {}
-
   seroval@1.7.6: {}
+
+  seroval@1.8.2: {}
 
   serve-placeholder@2.0.2:
     dependencies:
@@ -25536,12 +25566,11 @@ snapshots:
       seroval: 1.6.12
       seroval-plugins: 1.6.12(seroval@1.6.12)
 
-  solid-js@2.0.0-rc.20:
+  solid-js@2.0.0-rc.23:
     dependencies:
-      '@solidjs/signals': 2.0.0-rc.20
-      csstype: 3.2.3
-      seroval: 1.7.0
-      seroval-plugins: 1.7.0(seroval@1.7.0)
+      '@solidjs/signals': 2.0.3
+      seroval: 1.8.2
+      seroval-plugins: 1.8.0(seroval@1.8.2)
 
   solid-refresh@0.6.3(solid-js@1.9.18)(supports-color@10.2.2):
     dependencies:
@@ -25807,7 +25836,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@4.7.7(picomatch@4.0.7)(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3):
+  svelte-check@4.7.8(picomatch@4.0.7)(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       '@sveltejs/load-config': 0.2.3
@@ -25815,14 +25844,14 @@ snapshots:
       fdir: 6.5.0(picomatch@4.0.7)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.57.3(@typescript-eslint/types@8.69.0)
+      svelte: 5.59.1(@typescript-eslint/types@8.69.0)
       typescript: 6.0.3
     transitivePeerDependencies:
       - picomatch
 
-  svelte-preprocess@6.0.5(@babel/core@7.29.7(supports-color@10.2.2))(less@4.9.1(supports-color@10.2.2))(postcss@8.5.32)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3):
+  svelte-preprocess@6.0.5(@babel/core@7.29.7(supports-color@10.2.2))(less@4.9.1(supports-color@10.2.2))(postcss@8.5.32)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3):
     dependencies:
-      svelte: 5.57.3(@typescript-eslint/types@8.69.0)
+      svelte: 5.59.1(@typescript-eslint/types@8.69.0)
     optionalDependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       less: 4.9.1(supports-color@10.2.2)
@@ -25831,14 +25860,14 @@ snapshots:
       stylus: 0.56.0(supports-color@10.2.2)
       typescript: 6.0.3
 
-  svelte2tsx@0.7.62(svelte@5.57.3(@typescript-eslint/types@8.69.0))(typescript@6.0.3):
+  svelte2tsx@0.7.63(svelte@5.59.1(@typescript-eslint/types@8.69.0))(typescript@6.0.3):
     dependencies:
       dedent-js: 1.0.1
       scule: 1.3.0
-      svelte: 5.57.3(@typescript-eslint/types@8.69.0)
+      svelte: 5.59.1(@typescript-eslint/types@8.69.0)
       typescript: 6.0.3
 
-  svelte@5.57.3(@typescript-eslint/types@8.69.0):
+  svelte@5.59.1(@typescript-eslint/types@8.69.0):
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.6.0
@@ -25850,7 +25879,7 @@ snapshots:
       clsx: 2.1.1
       devalue: 5.9.4
       esm-env: 1.2.2
-      esrap: 2.4.0(@typescript-eslint/types@8.69.0)
+      esrap: 2.4.2(@typescript-eslint/types@8.69.0)
       is-reference: 3.0.3
       locate-character: 3.0.0
       magic-string: 0.30.21
@@ -26398,7 +26427,7 @@ snapshots:
   unplugin@3.7.0(esbuild@0.28.2)(rolldown@1.2.16)(rollup@4.65.1)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)):
     dependencies:
       '@jridgewell/remapping': 2.3.5
-      '@rolldown/pluginutils': 1.0.1
+      '@rolldown/pluginutils': 1.1.1
       picomatch: 4.0.7
       webpack-virtual-modules: 0.6.2
     optionalDependencies:
@@ -26663,7 +26692,7 @@ snapshots:
       solid-js: 1.9.18
       solid-refresh: 0.6.3(solid-js@1.9.18)(supports-color@10.2.2)
       vite: 8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)
-      vitefu: 1.1.3(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
+      vitefu: 1.1.4(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
     optionalDependencies:
       '@testing-library/jest-dom': 7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5)
     transitivePeerDependencies:
@@ -26751,6 +26780,10 @@ snapshots:
       yaml: 2.9.1
 
   vitefu@1.1.3(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)):
+    optionalDependencies:
+      vite: 8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)
+
+  vitefu@1.1.4(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)):
     optionalDependencies:
       vite: 8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1)
 
@@ -26849,10 +26882,10 @@ snapshots:
       solid-js: 1.9.18
       vitest: 5.0.5(@types/node@26.4.1)(@vitest/browser-playwright@5.0.5)(@vitest/coverage-v8@5.0.5)(@vitest/ui@5.0.5)(jsdom@30.1.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
 
-  vitest-browser-svelte@3.1.0(svelte@5.57.3(@typescript-eslint/types@8.69.0))(vitest@5.0.5):
+  vitest-browser-svelte@3.1.0(svelte@5.59.1(@typescript-eslint/types@8.69.0))(vitest@5.0.5):
     dependencies:
-      '@testing-library/svelte-core': 1.1.3(svelte@5.57.3(@typescript-eslint/types@8.69.0))
-      svelte: 5.57.3(@typescript-eslint/types@8.69.0)
+      '@testing-library/svelte-core': 1.1.3(svelte@5.59.1(@typescript-eslint/types@8.69.0))
+      svelte: 5.59.1(@typescript-eslint/types@8.69.0)
       vitest: 5.0.5(@types/node@26.4.1)(@vitest/browser-playwright@5.0.5)(@vitest/coverage-v8@5.0.5)(@vitest/ui@5.0.5)(jsdom@30.1.3)(vite@8.3.5(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.107.0)(sass@1.107.0)(stylus@0.56.0(supports-color@10.2.2))(terser@5.51.2)(yaml@2.9.1))
 
   vitest-browser-vue@3.1.0(@vue/compiler-dom@3.5.44)(@vue/server-renderer@3.5.44)(vitest@5.0.5)(vue@3.5.44(typescript@6.0.3)):
